@@ -38,8 +38,11 @@ function sum(){  //TODO: Implementar soma
 
 }
 
-function sub(){
-    //TODO: Implementar subtração
+function sub(){//TODO: Implementar subtração
+    let a = Number(prompt("Primeiro Número: "));
+    let b = Number(prompt("Segundo Número: "));
+    let res = a - b;
+    console.log(`Resultado: ${res}`)
 }
 
 function mult(){
