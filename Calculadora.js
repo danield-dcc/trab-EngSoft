@@ -1,16 +1,15 @@
 let prompt = require('prompt-sync')();
 
 menu:
-    while(true){
+while(true != 6){
        
-        console.log('Calculadora');
-        console.log('Qual operação deseja realizar: ');
-        console.log('1.  Soma');
-        console.log('2.  Subtração');
-        console.log('3.  Multiplicação');
-        console.log('4.  Divisão');
-        console.log('5.  Sair');
-
+    console.log('Calculadora');
+    console.log('Qual operação deseja realizar: ');
+    console.log('1.  Soma');
+    console.log('2.  Subtração');
+    console.log('3.  Multiplicação');
+    console.log('4.  Divisão');
+    console.log('6.  Sair');
         var opcao = Number(prompt('Opção: '));
 
             switch(opcao){
