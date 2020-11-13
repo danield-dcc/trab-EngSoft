@@ -1,6 +1,7 @@
 let prompt = require('prompt-sync')();
 
 
+
 menu:
     while(true != 6){
        
@@ -11,6 +12,7 @@ menu:
         console.log('3.  Multiplicação');
         console.log('4.  Divisão');
         console.log('6.  Sair');
+
         var opcao = Number(prompt('Opção: '));
 
             switch(opcao){
@@ -32,10 +34,12 @@ menu:
     }
 
 function sum(){  //TODO: Implementar soma
+
     let a = Number(prompt("Primerio Número: ") );
     let b = Number(prompt("Segundo Número: ") );
     let res = a + b;
     console.log(`Resultado: ${res}`);
+
 
 }
 
