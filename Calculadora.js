@@ -60,5 +60,8 @@ function mult(){  //TODO: Implementar Multiplicação
 }
 
 function div(){
-    //TODO: Implementar divisão
+    let a = Number(prompt("Primerio Número: ") );
+    let b = Number(prompt("Segundo Número: ") );
+    let res = a /= b;
+    console.log(`Resultado: ${res}`);
 }
